@@ -1,0 +1,33 @@
+
+  <style>
+      body {
+          background-color: lightblue;
+      }
+
+      header {
+          background-color: none;
+          color: white;
+          font-style: italic;
+      }
+      footer {
+          background-color: none
+          color: grey;
+          }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a:hover {
+        font-weight: bolder;
+      }
+      .Drinktable {
+          width:100%;
+          margin: auto;
+          font-size:20px;
+          border:1px solid black;
+          border-right-width:1px solid black;
+      }
+      .Drinktable tr:nth-child(even) {
+          background:lightgrey
+        }

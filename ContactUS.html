@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+  Name: Nick Mostrom
+  Date Last updated: Sun, Feb 21
+  Restaurant Contact Us site
+  -->
+  <html lang="en">
+  <head>
+    <title>Greasy Chicken Contact</title>
+    <link rel="stylesheet" type="text/css" href="restaurantStyles.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              <p><a href="" target="_blank">Name of Website</a></p>
+              <figure><img src="images/website-1778529_640.png" alt="Screenshot of home page" /></figure>
+            </div>
+          </div>
+        </div>
+  </div>
+    <header><h1><center>Contact Us</center></h1></header>
+    <hr />
+    <table>
+      <a href="file:///Users/nicholasmostrom/Documents/GitHub/Repos/index.html">Home</a>
+&nbsp;
+      <a href="file:///Users/nicholasmostrom/Documents/GitHub/Repos/Menu.html">Menu</a>
+&nbsp;
+      <a href="file:///Users/nicholasmostrom/Documents/GitHub/Repos/ContactUS.html">Contact Us</a>
+    <!--We need to add links to Menu.html -->
+    <hr />
+      <form action="fakePage.html" method="POST">
+          First Name: <input type="text" name="myTextInput" /><br />
+          Last Name: <input type="text" name="myTextInput" /><br />
+          Phone #: <input type="text" name="myTextInput" /><br />
+          Reason for Inquiry: <select name="Reason For Inquiry">
+                <option value="Service">Service</option>
+                <option value="Questions">Question</option>
+                <option value="Opportuiny in the business">Job Opportunity</option>
+            </select><br />
+            Additional Infoprmation: <textarea name="briefDescription"></textarea><br />
+          Have you been to the Restaurant:<br />
+          <input type="radio" name="answer" value="YES" checked />Yes<br />
+          <input type="radio" name="answer" value="NO" />No<br />
+          Best Days to Comntact you: <input type="password" name="userPassword" /><br />
+          <input type="checkbox" name="myChoices" value="M" checked/>Monday<br />
+          <input type="checkbox" name="myChoices" value="Tu" checked/>Tuesday<br />
+          <input type="checkbox" name="myChoices" value="W" checked/>Wednesday<br />
+          <input type="checkbox" name="myChoices" value="Th" checked/>Thursday<br />
+          <input type="checkbox" name="myChoices" value="F" checked/>Friday<br />
+          <input type="checkbox" name="myChoices" value="S" checked/>Saturday<br />
+          <input type="checkbox" name="myChoices" value="Su" checked/>Sunday<br />
+          <input type="submit" /><input type="reset" /><br />
+      </form>
+      <hr />
+      <footer><center>1120 First Street, Los Angeles, CA, 90001</footer>
+      <footer><center><b>952-009-1335</b></center></footer>
+      <style>
+          body {
+              background-color: lightblue;
+          }
+
+          header {
+              background-color: lightpink;
+              color: white;
+              font-style: italic;
+          }
+          footer {
+              background-color: lightpink
+              color: grey;
+              }
+      </style>
